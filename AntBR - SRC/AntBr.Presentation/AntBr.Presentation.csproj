@@ -1,0 +1,111 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BEAC7B05-CF45-4EE2-A9BC-459D846FC875}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AntBr.Presentation</RootNamespace>
+    <AssemblyName>AntBr.Presentation</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main\Settings.cs" />
+    <Compile Include="UI\ResultTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ResultTable.Designer.cs">
+      <DependentUpon>ResultTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UI\ResultTable.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResultTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SettingParameters.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SettingParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI\SettingParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SettingParameters.Designer.cs">
+      <DependentUpon>SettingParameters.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fresh-Grass_1600.jpg" />
+    <None Include="Resources\178737995_0c0301eb61_o.jpg" />
+    <None Include="Resources\futebol.bmp" />
+    <None Include="Resources\52660018_1b06d87841_o.jpg" />
+    <None Include="XML\CostsTable1" />
+    <Content Include="XML\CostsTable.xml" />
+    <Content Include="XML\TeamsConfig.xml" />
+    <Content Include="XML\AntSystemParameters.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AntBr.Algorithms\AntBr.Algorithms.csproj">
+      <Project>{1B58851D-2861-42E3-A683-16C3F8DB4A31}</Project>
+      <Name>AntBr.Algorithms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AntBr.Commons\AntBr.Commons.csproj">
+      <Project>{F39DDA1C-5CEE-4D10-994E-29CBF6888A56}</Project>
+      <Name>AntBr.Commons</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

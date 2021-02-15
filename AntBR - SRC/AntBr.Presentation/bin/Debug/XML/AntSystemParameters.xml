@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ant_sytem>
+  <ant_cycle>
+    <parameter name="trail_quantity" value="1000" />
+    <parameter name="trail_significance" value="1,0" />
+    <parameter name="visibiblity_significance" value="5,0" />
+    <parameter name="evaporation_coeficient" value="0,5" />
+    <parameter name="edge_trail_cut_value" value="0,00001" />
+    <parameter name="ant_number" value="20" />
+    <parameter name="max_cycles_number" value="1000" />
+    <parameter name="initial_trail" value="0,01" />
+    <parameter name="stagnation_cycles_number" value="10" />
+  </ant_cycle>
+</ant_sytem>

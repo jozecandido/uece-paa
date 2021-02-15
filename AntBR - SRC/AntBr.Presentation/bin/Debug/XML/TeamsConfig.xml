@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+XML para armazenar informa'~oes sobre o campeonato: times participantes,
+suas cidades e estados.
+-->
+<championship>
+  <!--
+  Informações sobre o campeonato (descrição ou outra coisa).
+  -->
+  <information>
+  </information>
+  <!--
+  Lista de clubes participantes, suas cidades e estados.
+  -->
+  <teams>
+    <team name="Atlético-PR" city="Curitiba" state="PR" icon="atlpr.gif"/>
+    <team name="Botafogo" city="Rio de Janeiro" state="RJ" icon="bot.gif"/>
+    <team name="Corinthians" city="São Paulo" state="SP" icon="cor.gif"/>
+    <team name="Cruzeiro" city="Belo Horizonte" state="MG" icon="cru.gif"/>
+    <team name="Figueirense" city="Florianópolis" state="SC" icon="fig.gif"/>
+    <team name="Flamengo" city="Rio de Janeiro" state="RJ" icon="fla.gif"/>
+    <team name="Fluminense" city="Rio de Janeiro" state="RJ" icon="flu.gif"/>
+    <team name="Fortaleza" city="Fortaleza" state="CE" icon="for.gif"/>
+    <team name="Goiás" city="Goiânia" state="GO" icon="goi.gif"/>
+    <team name="Grêmio" city="Porto Alegre" state="RS" icon="gre.gif"/>
+    <team name="Internacional" city="Porto Alegre" state="RS" icon="int.gif"/>
+    <team name="Juventude" city="Caxias do Sul" state="RS" icon="juv.gif"/>
+    <team name="Palmeiras" city="São Paulo" state="SP" icon="pal.gif"/>
+    <team name="Paraná" city="Curitiba" state="PR" icon="par.gif"/>
+    <team name="Ponte Preta" city="Campinas" state="SP" icon="pon.gif"/>
+    <team name="Santa Cruz" city="Recife" state="PE" icon="sta.gif"/>
+    <team name="Santos" city="Santos" state="SP" icon="san.gif"/>
+    <team name="São Caetano" city="São Caetano do Sul" state="SP" icon="sca.gif"/>
+    <team name="São Paulo" city="São Paulo" state="SP" icon="sao.gif"/>
+    <team name="Vasco" city="Rio de Janeiro" state="RJ" icon="vas.gif"/>
+  </teams>
+</championship>

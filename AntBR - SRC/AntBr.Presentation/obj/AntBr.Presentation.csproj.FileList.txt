@@ -1,0 +1,13 @@
+bin\Debug\AntBr.Presentation.exe
+bin\Debug\AntBr.Presentation.pdb
+bin\Debug\AntBr.Commons.dll
+bin\Debug\AntBr.Commons.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AntBr.Presentation.Properties.Resources.resources
+obj\Debug\AntBr.Presentation.csproj.GenerateResource.Cache
+obj\Debug\AntBr.Presentation.exe
+obj\Debug\AntBr.Presentation.pdb
+bin\Debug\AntBr.Algorithms.dll
+bin\Debug\AntBr.Algorithms.pdb
+obj\Debug\AntBr.Presentation.UI.SettingParameters.resources
+obj\Debug\AntBr.Presentation.ResultTable.resources

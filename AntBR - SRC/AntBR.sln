@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntBr.Commons", "AntBr.Commons\AntBr.Commons.csproj", "{F39DDA1C-5CEE-4D10-994E-29CBF6888A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntBr.Presentation", "AntBr.Presentation\AntBr.Presentation.csproj", "{BEAC7B05-CF45-4EE2-A9BC-459D846FC875}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F39DDA1C-5CEE-4D10-994E-29CBF6888A56} = {F39DDA1C-5CEE-4D10-994E-29CBF6888A56}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntBr.Algorithms", "AntBr.Algorithms\AntBr.Algorithms.csproj", "{1B58851D-2861-42E3-A683-16C3F8DB4A31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F39DDA1C-5CEE-4D10-994E-29CBF6888A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39DDA1C-5CEE-4D10-994E-29CBF6888A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39DDA1C-5CEE-4D10-994E-29CBF6888A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39DDA1C-5CEE-4D10-994E-29CBF6888A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEAC7B05-CF45-4EE2-A9BC-459D846FC875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAC7B05-CF45-4EE2-A9BC-459D846FC875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEAC7B05-CF45-4EE2-A9BC-459D846FC875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEAC7B05-CF45-4EE2-A9BC-459D846FC875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B58851D-2861-42E3-A683-16C3F8DB4A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B58851D-2861-42E3-A683-16C3F8DB4A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B58851D-2861-42E3-A683-16C3F8DB4A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B58851D-2861-42E3-A683-16C3F8DB4A31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
